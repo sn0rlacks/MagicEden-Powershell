@@ -10,7 +10,7 @@
 .PARAMETER Network
     Network to use. Choices are mainnet and devnet.
 #>
-function Get-CollectionActivities {
+function Get-CollectionListings {
     param(
         [Parameter(Mandatory=$false)]
         [string]

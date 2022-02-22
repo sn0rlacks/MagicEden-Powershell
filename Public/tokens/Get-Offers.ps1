@@ -10,7 +10,7 @@
 .PARAMETER Network
     Network to use. Choices are mainnet and devnet.
 #>
-function Get-TokenMetadata {
+function Get-Offers {
     param(
         [Parameter(Mandatory=$true)]
         [String]

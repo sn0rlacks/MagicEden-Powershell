@@ -6,7 +6,7 @@
 .PARAMETER Network
     Network to use. Choices are mainnet and devnet.
 #>
-function Get-Collections {
+function Get-CollectionStats {
     param(
         [Parameter(Mandatory=$false)]
         [string]
